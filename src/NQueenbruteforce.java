@@ -2,7 +2,7 @@ public class NQueenbruteforce {
 
     public static void main(String[] args) {
         int N;
-        N = 20;
+        N = 4;
         int[][] array = new int[N][N];
         System.out.println(N);
         solutionForQueens(array,N);
@@ -10,7 +10,7 @@ public class NQueenbruteforce {
     }
 
     static void printSolution(int[][] board) {
-        int N = 20;
+        int N = 4;
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 System.out.print(board[i][j] + " ");
